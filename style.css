@@ -19,3 +19,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.container .square{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
