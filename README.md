@@ -4,7 +4,7 @@
 This is a running line animation
 
 ## live link
-https://thuotracy.github.io/random-quote-generator/
+https://thuotracy.github.io/line-animation-effect/
 
 ##  Languages 
 * CSS
