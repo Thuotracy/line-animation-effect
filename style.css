@@ -25,3 +25,9 @@ body{
     width: 200px;
     height: 200px;
 }
+
+.container .square span{
+    position: absolute;
+    inset: 10px;
+    overflow: hidden;
+}
