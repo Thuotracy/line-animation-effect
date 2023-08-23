@@ -26,6 +26,39 @@ body{
     height: 200px;
 }
 
+.container .square::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    box-shadow: 0 0 0 8px rgba(102, 1, 1, 0.966),
+    0 0 0 15px rgba(80, 0, 0, 0.74);
+    animation: animateSquare 4s linear infinite;
+}
+
+@keyframes animateSquare{
+    0%{
+        transform: translate(2px,2px);
+    } 
+    
+    25%{
+        transform: translate(178px,2px);
+    }
+
+    50%{
+        transform: translate(178px,178px);
+    }
+
+    75%{
+        transform: translate(2px,178px);
+    }
+
+    100%{
+        transform: translate(2px,2px);
+    }
+}
+
 .container .square span{
     position: absolute;
     inset: 10px;
