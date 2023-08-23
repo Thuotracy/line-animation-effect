@@ -11,3 +11,11 @@ body{
     min-height: 100vh;
     background-color: black;
 }
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
