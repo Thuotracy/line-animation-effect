@@ -26,6 +26,16 @@ body{
     height: 200px;
 }
 
+.container .square:nth-child(2){
+    transform: translate(-25%, -25%) rotateX(180deg);
+    filter: hue-rotate(150deg);
+}
+
+.container .square:nth-child(3){
+    transform: translate(25%, 25%) rotate(180deg);
+    filter: hue-rotate(300deg);
+}
+
 .container .square::before{
     content: '';
     position: absolute;
