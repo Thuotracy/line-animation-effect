@@ -1,5 +1,4 @@
 # LINE ANIMATION
-
 ## Description
 
 This is a running line animation
